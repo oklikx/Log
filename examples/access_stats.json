@@ -1,0 +1,49 @@
+{
+  "file": "access.log",
+  "total_requests": 3216723,
+  "methods": {
+    "GET": 2247848,
+    "POST": 918794,
+    "PUT": 70,
+    "DELETE": 1,
+    "OPTIONS": 39,
+    "HEAD": 49971
+  },
+  "top_ips": [
+    {
+      "ip": "193.106.31.130",
+      "count": 235209
+    },
+    {
+      "ip": "198.50.156.189",
+      "count": 167812
+    },
+    {
+      "ip": "5.112.235.245",
+      "count": 166722
+    }
+  ],
+  "slowest_requests": [
+    {
+      "method": "POST",
+      "url": "/index.php?option=com_contact&view=contact&id=1",
+      "ip": "185.194.15.38",
+      "duration": 10000,
+      "time": "31/Mar/2019:06:04:48 +0200"
+    },
+    {
+      "method": "POST",
+      "url": "/index.php?option=com_contact&view=contact&id=1",
+      "ip": "185.194.12.89",
+      "duration": 10000,
+      "time": "30/Mar/2019:05:51:16 +0100"
+    },
+    {
+      "method": "POST",
+      "url": "/administrator/index.php",
+      "ip": "95.133.223.24",
+      "duration": 10000,
+      "time": "18/Feb/2016:16:28:35 +0100"
+    }
+  ]
+}
